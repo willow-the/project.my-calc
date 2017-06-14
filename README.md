@@ -1,0 +1,1 @@
+Goal: build out some calculator functionality using jQuery. Build out calculator front end for them, have them use on-click functions to use the calculator. Advanced content, make the calculator work with the keyboard as well. 
