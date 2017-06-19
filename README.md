@@ -30,10 +30,14 @@ my-book/
 ## To-Do
 - Create a calculator UI with HTML and CSS. It must contain all of the numbers, functionality, and a display for the current value.
 - Set up click handlers for each clickable component that you created.
-- Take some time to think about the actual mechanism that you will need to create for your calculator. What information will you need to store? How do each of the functionality buttons affect the display? Do you need to remember any previous input values?
+- Take some time to think about the actual mechanism that you will need to create for your calculator.
+  - What information will you need to store?
+  - How do each of the functionality buttons affect the display?
+  - Do you need to remember any previous input values?
 - Once you have thought out a mechanism for your calculator, implement it.
 
 ## Resources
+- [Basic Calculator](https://www.google.com/search?q=calculator)
 - [HTML Reference](https://www.w3schools.com/html/)
 - [CSS Reference](https://www.w3schools.com/css/default.asp)
 - [jQuery Documentation](https://jquery.com/)
