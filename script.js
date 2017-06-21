@@ -5,10 +5,9 @@ $(document).ready(function() {
 // num1 fun1 num2
 // }
 
-  var current = $("#name").text()
+  var num1 = $("#name").text()
   $(".ma").click(function (e) {
-      $("#name").text(current +e.target.innerHTML);
-      current = $("#name").text()
-      console.log(e.target.innerHTML)
+      $("#name").text(num1 +e.target.innerHTML);
+      num1 = $("#name").text()
   })
 });
