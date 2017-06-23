@@ -1,4 +1,29 @@
 /* Your CSS Here */
 p{
   margin: 0 auto;
+  background-color: lightBlue;
+  text-align: center;
 }
+/*sets up text position and answerbox background color */
+
+button{
+  background-color: green;
+  margin: 0 auto;
+}
+/*sets up button color*/
+
+button:hover{
+  background-color: blue;
+}
+/*sets up background color for when you put your cursor over button*/
+
+body{
+  width:100vw;
+}
+/*sets up body width*/
+
+div{
+  margin: 0 auto;
+  width: 25%
+}
+/*sets up margin width and tag box width for all div elements*/
