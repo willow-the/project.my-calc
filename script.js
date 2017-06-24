@@ -12,6 +12,7 @@ $(document).ready(function() {
 // sets up variables
 
   $(".a").click(function(a){
+// event listener for class a
       console.log(numr)
       numr=$("textarea").val()
       $("textarea").val("")
