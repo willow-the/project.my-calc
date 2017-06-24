@@ -19,11 +19,16 @@ button:hover{
 
 body{
   width:100vw;
+  background-color: Red;
 }
-/*sets up body width*/
+/*sets up body width and background color*/
 
 div{
   margin: 0 auto;
   width: 25%
 }
 /*sets up margin width and tag box width for all div elements*/
+textarea{
+  background-color: lightGreen;
+}
+/*sets the background color of the text area light green*/
