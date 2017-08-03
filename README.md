@@ -1,5 +1,7 @@
 # My Calc
 
+![App Screenshot](https://github.com/hello-world-tech-studios/project.my-calc/blob/master/assets/Calculator.gif)
+
 ## Objective
 Create a functioning calculator out of HTML, CSS, Javascript, and jQuery. Your calculator should contain all of the standard functionality (add, subtract, divide, multiply, clear, equals). You only need to handle mouse clicks, but for extra credit you could including keyboard input to your calculator as well.
 
@@ -44,5 +46,3 @@ my-book/
 - [Bootstrap Documentation](https://getbootstrap.com)
 - [A Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [A Guide to Centering in CSS](https://css-tricks.com/centering-css-complete-guide/)
-
-![App Screenshot](https://github.com/hello-world-tech-studios/project.my-calc/blob/master/assets/Calculator.gif)
