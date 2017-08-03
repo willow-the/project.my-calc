@@ -44,3 +44,5 @@ my-book/
 - [Bootstrap Documentation](https://getbootstrap.com)
 - [A Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [A Guide to Centering in CSS](https://css-tricks.com/centering-css-complete-guide/)
+
+![App Screenshot](https://github.com/hello-world-tech-studios/project.my-calc/blob/master/assets/Calculator.gif)
