@@ -11,6 +11,7 @@ body {
   margin: 50px;
   border-radius: 5%;
   position: absolute;
+  height: 950px;
 }
 
 #calcdisplay {
@@ -23,11 +24,30 @@ body {
   border-radius: 4%
 }
 
+#display {
+    position: absolute;
+    top: 15%;
+    margin-left: 150px;
+}
+
 .numbers {
   height: 130px;
   width: 130px;
 }
-
+#clear {
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  top: 81%;
+  margin-left: 300px;
+}
+#enter {
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  top: 81%;
+  margin-left: 500px;
+}
 #one {
   position: absolute;
   top: 27%;
@@ -52,4 +72,62 @@ body {
   position: absolute;
   top: 45%;
   margin-left: 300px;
+}
+#six {
+  position: absolute;
+  top: 45%;
+  margin-left: 500px;
+}
+#seven {
+  position: absolute;
+  top: 63%;
+  margin-left: 100px;
+}
+#eight {
+  position: absolute;
+  top: 63%;
+  margin-left: 300px;
+}
+#nine {
+  position: absolute;
+  top: 63%;
+  margin-left: 500px;
+}
+#zero {
+  position: absolute;
+  top: 81%;
+  margin-left: 100px;
+}
+
+
+#add {
+  height: 130px;
+  width: 170px;
+  position: absolute;
+  top: 27%;
+  margin-left: 720px;
+}
+
+#subtract {
+  height: 130px;
+  width: 170px;
+  position: absolute;
+  top: 45%;
+  margin-left: 720px;
+}
+
+#mult {
+  height: 130px;
+  width: 170px;
+  position: absolute;
+  top: 63%;
+  margin-left: 720px;
+}
+
+#div {
+  height: 130px;
+  width: 170px;
+  position: absolute;
+  top: 81%;
+  margin-left: 720px;
 }
