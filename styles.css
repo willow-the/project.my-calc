@@ -4,10 +4,52 @@ body {
   background-color: black;
 }
 
-#what {
+#calcbody {
   background-color: #b642f4;
   padding: 450px;
   width: 25%;
   margin: 50px;
   border-radius: 5%;
+  position: absolute;
+}
+
+#calcdisplay {
+  border: solid white;
+  padding: 60px;
+  background-color: white;
+  position: absolute;
+  margin: 100px;
+  width: 800px;
+  border-radius: 4%
+}
+
+.numbers {
+  height: 130px;
+  width: 130px;
+}
+
+#one {
+  position: absolute;
+  top: 27%;
+  margin-left: 100px;
+}
+#two {
+  position: absolute;
+  top: 27%;
+  margin-left: 300px;
+}
+#three{
+  position: absolute;
+  top: 27%;
+  margin-left: 500px;
+}
+#four {
+  position: absolute;
+  top: 45%;
+  margin-left: 100px;
+}
+#five {
+  position: absolute;
+  top: 45%;
+  margin-left: 300px;
 }
