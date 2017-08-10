@@ -49,13 +49,13 @@ $(document).ready(function() {
     console.log(x);
     if (x.includes("+")) {
       var n = x.indexOf("+");
-      console.log(n);
       var y = x.substring(0, n);
-      console.log(y);
       var y2 = parseInt(y, 10);
-      console.log(y2);
-      console.log(typeof y2);
-
+      var b = x.length;
+      var z = x.substring(n+1, b);
+      var z2 = parseInt(z, 10);
+      var answer = y2 + z2;
+      console.log(answer);
     }
 
   });
