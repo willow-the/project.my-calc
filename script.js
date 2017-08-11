@@ -46,7 +46,6 @@ $(document).ready(function() {
   });
   $("#enter").click(function(){
     var x = document.getElementById("display").textContent;
-    console.log(x);
     if (x.includes("+")) {
       var n = x.indexOf("+");
       var y = x.substring(0, n);
@@ -55,8 +54,45 @@ $(document).ready(function() {
       var z = x.substring(n+1, b);
       var z2 = parseInt(z, 10);
       var answer = y2 + z2;
-      console.log(answer);
-    }
+      $("#display").empty();
+      $("#display").append(answer);
+      }
+    else if (x.includes("-")) {
+        var n = x.indexOf("-");
+        var y = x.substring(0, n);
+        var y2 = parseInt(y, 10);
+        var b = x.length;
+        var z = x.substring(n+1, b);
+        var z2 = parseInt(z, 10);
+        var answer = y2 - z2;
+        $("#display").empty();
+        $("#display").append(answer);
+      }
+      else if (x.includes("*")) {
+          var n = x.indexOf("*");
+          var y = x.substring(0, n);
+          var y2 = parseInt(y, 10);
+          var b = x.length;
+          var z = x.substring(n+1, b);
+          var z2 = parseInt(z, 10);
+          var answer = y2 * z2;
+          $("#display").empty();
+          $("#display").append(answer);
+        }
+        else if (x.includes("/")) {
+            var n = x.indexOf("/");
+            var y = x.substring(0, n);
+            var y2 = parseInt(y, 10);
+            var b = x.length;
+            var z = x.substring(n+1, b);
+            var z2 = parseInt(z, 10);
+            var answer = y2/z2;
+            $("#display").empty();
+            $("#display").append(answer);
+          }
+
+
+
 
   });
 

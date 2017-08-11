@@ -2,6 +2,8 @@
 
 body {
   background-color: black;
+  font-family: 'Saira', sans-serif;
+  font-size: 40px;
 }
 
 #calcbody {
@@ -26,7 +28,7 @@ body {
 
 #display {
     position: absolute;
-    top: 15%;
+    top: 13.4%;
     margin-left: 150px;
 }
 
@@ -114,6 +116,7 @@ body {
   position: absolute;
   top: 45%;
   margin-left: 720px;
+  font-size: 50px;
 }
 
 #mult {
@@ -130,4 +133,5 @@ body {
   position: absolute;
   top: 81%;
   margin-left: 720px;
+  font-size: 50px;
 }
